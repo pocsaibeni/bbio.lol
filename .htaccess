@@ -10,6 +10,7 @@ ErrorDocument 404 /404.html
 	Satisfy all
 </Files>
 
+RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} -d [OR]
 RewriteCond %{SCRIPT_FILENAME} -f
 RewriteRule "(^|/)\." - [F]
