@@ -116,7 +116,7 @@ nav.navbar {
     color: var(--text-color-1);
     text-align: center;
     margin: 0;
-    background: linear-gradient(to right,#d54edf 0%,rgb(72,68,68) 100%);
+    background: linear-gradient(to right,#5048e5 0%,rgb(28, 1, 87) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200% auto;
