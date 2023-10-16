@@ -9,3 +9,16 @@ ErrorDocument 404 /404.html
 	Deny from all
 	Satisfy all
 </Files>
+
+RewriteCond %{SCRIPT_FILENAME} -d [OR]
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+RedirectMatch 404 /404.html
+
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+
+
+Options All -Indexes
