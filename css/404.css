@@ -1,0 +1,321 @@
+:root {
+    --font-family: Satoshi, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --background-color-1: hsl(0, 0%, 1%);
+    --background-color-2: hsl(0, 0%, 12%);
+    --background-color-3: hsla(240, 3%, 6%, 0.5);
+    --text-color-1: hsl(30, 50%, 98%);
+    --text-color-2: hsl(0, 0%, 100%);
+    --hue-1: hsl(243, 75%, 59%);
+    --hue-2: hsl(201, 100%, 50%)
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: var(--background-color-1);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    user-select: none
+}
+
+body:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    inset: 40% -60% 0 -60%;
+    background-image: radial-gradient( ellipse at bottom,var(--background-color-2) 0%,var(--background-color-1) 50% );
+    opacity: .4
+}
+
+nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    height: 4rem;
+    transition: background-color .2s,height .2s
+}
+
+.navbar-icon {
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    transition: all .2s ease-in-out
+}
+
+.navbar-icon:hover {
+    transform: scale(1.05)
+}
+
+.navbar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
+.navbar-routes {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: center
+}
+
+.navbar-link {
+    position: relative;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color-1);
+    text-decoration: none;
+    transition: all .2s ease-in-out
+}
+
+.navbar-link:hover {
+    transform: scale(.95);
+    filter: brightness(1.1)
+}
+
+.hue {
+    color: var(--hue-2);
+    font-weight: 600
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    margin: 1rem
+}
+
+.hero-text {
+    margin: 1rem
+}
+
+.hero-text-header {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(to right,#d54edf 0%,rgb(72,68,68) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: move-gradient 5s ease infinite
+}
+
+@keyframes move-gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+b {
+    font-weight: 700
+}
+
+.hero-text-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: 0
+}
+
+.hero-text-description-small {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: auto;
+    margin: 0
+}
+
+.dud {
+    color: #757575
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-2);
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    margin: .5rem;
+    width: 100%;
+    transition: all .2s ease-in-out
+}
+
+.button:hover {
+    transform: scale(1.05)
+}
+
+.primary {
+    background-color: var(--hue-1);
+    border: 2px solid var(--hue-1)
+}
+
+.primary:hover {
+    background-color: transparent
+}
+
+.primary i {
+    margin-left: .5rem
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    padding: 2rem
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    margin: 1rem;
+    background-color: var(--background-color-3);
+    backdrop-filter: blur(10px);
+    border-radius: .5rem;
+    transition: all .2s ease-in-out
+}
+
+.feature:hover {
+    transform: scale(1.05)
+}
+
+.feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--text-color-2);
+    font-size: 2rem;
+    margin: 1rem
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem
+}
+
+.feature-text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: 0
+}
+
+.feature-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: 0
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.footer {
+    border-top: 1px solid var(--bg-color-light);
+    border-radius: 10px;
+    color: var(--text-color);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%
+}
+
+.footer p {
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--text-color-1);
+    text-align: center;
+    margin: 0;
+    padding: .5rem 1rem
+}
+
+@media screen and (max-width: 768px) {
+    nav.navbar {
+        display:none
+    }
+
+    .columns {
+        display: none
+    }
+}
+
+@media screen and (max-height: 1000px) {
+    .columns {
+        display:none
+    }
+}
