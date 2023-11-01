@@ -2861,6 +2861,7 @@ textarea.w-input, textarea.w-select {
   text-decoration: none;
   display: flex;
   position: static;
+  cursor: pointer;
 }
 
 .pricing-get-started-button {
@@ -2878,6 +2879,7 @@ textarea.w-input, textarea.w-select {
   text-decoration: none;
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 
 .pricing-svg {
