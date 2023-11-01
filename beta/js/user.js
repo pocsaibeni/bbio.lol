@@ -492,7 +492,7 @@
                             c.jsx)(o.Fragment, {
                                 children: (0,
                                 c.jsx)(g.e, {
-                                    content: "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donor" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
+                                    content: "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donator" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
                                     closeDelay: 150,
                                     showArrow: !1,
                                     offset: 7,
@@ -503,9 +503,9 @@
                                     children: (0,
                                     c.jsxs)("div", {
                                         className: t ? s().badge_small : "",
-                                        "data-tooltip-id": "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donor" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
+                                        "data-tooltip-id": "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donator" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
                                         "data-tooltip-delay-show": 70,
-                                        "data-tooltip-content": "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donor" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
+                                        "data-tooltip-content": "second" === e ? "Silver Medal" : "third" === e ? "Bronze Medal" : "winner" === e ? "Event Winner" : "verified" === e ? "Verified" : "og" === e ? "OG" : "staff" == e ? "Staff" : "donor" == e ? "Donator" : "premium" == e ? "Premium" : "server_booster" == e ? "Server Booster" : null,
                                         "data-inline": "false",
                                         children: ["verified" === e && n.verified, "og" === e && n.og, "donor" === e && n.donor, "premium" === e && n.premium, "staff" === e && n.staff, "server_booster" === e && n.booster, "third" === e && n.third, "second" === e && n.second, "winner" === e && n.winner]
                                     }, e)
