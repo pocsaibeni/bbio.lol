@@ -1265,13 +1265,13 @@
                                             },
                                             children: ["Join ", (0,
                                             c.jsx)(v(), {
-                                                href: "https://discord.gg/guns",
+                                                href: "https://discord.gg/9pkR9JRZwF",
                                                 target: "_blank",
                                                 style: {
                                                     color: "#bbbbbb",
                                                     textDecoration: "none"
                                                 },
-                                                children: "discord.gg/guns"
+                                                children: "https://discord.gg/9pkR9JRZwF"
                                             }), " to display your status."]
                                         })]
                                     })
@@ -1334,13 +1334,13 @@
                                     },
                                     children: ["Join ", (0,
                                     c.jsx)(v(), {
-                                        href: "https://discord.gg/guns",
+                                        href: "https://discord.gg/9pkR9JRZwF",
                                         target: "_blank",
                                         style: {
                                             color: "#bbbbbb",
                                             textDecoration: "none"
                                         },
-                                        children: "discord.gg/guns"
+                                        children: "https://discord.gg/9pkR9JRZwF"
                                     }), " to display your status."]
                                 })]
                             })
@@ -2014,7 +2014,7 @@
                     }), (0,
                     c.jsx)("meta", {
                         name: "description",
-                        content: "guns.lol #1 bio link | discord.gg/guns"
+                        content: "bbio.lol #1 bio link | https://discord.gg/9pkR9JRZwF"
                     }), (0,
                     c.jsx)("meta", {
                         content: "website",
@@ -2508,7 +2508,7 @@
                                     textDecoration: "none",
                                     color: "#b252cc"
                                 },
-                                children: "guns.lol"
+                                children: "bbio.lol"
                             })]
                         }), (0,
                         c.jsxs)("h3", {
