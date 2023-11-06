@@ -2193,7 +2193,7 @@ textarea.w-input, textarea.w-select {
 
 .navigation-link.premium-text {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg, #5048e5, #736cf6 35%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #736cf6 35%, #3e34ff);
   -webkit-background-clip: text;
   background-clip: text;
   font-weight: 500;
@@ -2331,7 +2331,7 @@ textarea.w-input, textarea.w-select {
   color: #d8d8d8;
   cursor: pointer;
   background-color: #1b1b1b;
-  background-image: linear-gradient(145deg, #5048e5, #6e67f4 55%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #6e67f4 55%, #3e34ff);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
@@ -2346,7 +2346,7 @@ textarea.w-input, textarea.w-select {
 
 .get-started-button.what-button {
   width: 225px;
-  background-image: linear-gradient(145deg, #5048e5, #726cf6 56%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #726cf6 56%, #3e34ff);
 }
 
 .get-started-button.discord-button {
@@ -2447,7 +2447,7 @@ textarea.w-input, textarea.w-select {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, .15);
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   -webkit-background-clip: text;
   background-clip: text;
   flex-direction: column;
@@ -2674,7 +2674,7 @@ textarea.w-input, textarea.w-select {
   min-height: 35px;
   min-width: 35px;
   -webkit-text-fill-color: inherit;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   background-clip: padding-box;
   border: 2px solid rgba(255, 255, 255, .2);
   border-radius: 50%;
@@ -2714,7 +2714,7 @@ textarea.w-input, textarea.w-select {
   min-height: 35px;
   min-width: 35px;
   -webkit-text-fill-color: inherit;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   background-clip: padding-box;
   border: 2px solid rgba(255, 255, 255, .2);
   border-radius: 50%;
@@ -2851,7 +2851,7 @@ textarea.w-input, textarea.w-select {
   height: 60px;
   color: #d8d8d8;
   background-color: #1b1b1b;
-  background-image: linear-gradient(145deg, #5048e5, #756ff7 55%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #756ff7 55%, #3e34ff);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
@@ -3061,7 +3061,7 @@ textarea.w-input, textarea.w-select {
   color: #d8d8d8;
   cursor: pointer;
   background-color: rgba(255, 255, 255, .2);
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   border: 2px rgba(255, 255, 255, .2);
   border-radius: 12px;
   justify-content: center;
@@ -3080,7 +3080,7 @@ textarea.w-input, textarea.w-select {
 
 .dark-button-hover:hover {
   -webkit-text-fill-color: inherit;
-  background-image: linear-gradient(to right, #5048e5, #857fff);
+  background-image: linear-gradient(to right, #5271FF, #3e34ff);
   background-clip: border-box;
 }
 
@@ -3194,7 +3194,7 @@ textarea.w-input, textarea.w-select {
 
 .submit-button-container {
   cursor: pointer;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   border-radius: 12px;
   margin-top: 15px;
   padding: 2px;
@@ -3670,7 +3670,7 @@ textarea.w-input, textarea.w-select {
   color: #d8d8d8;
   cursor: pointer;
   background-color: rgba(255, 255, 255, .2);
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   border: 2px rgba(255, 255, 255, .2);
   border-radius: 12px;
   justify-content: center;
@@ -3689,7 +3689,7 @@ textarea.w-input, textarea.w-select {
 
 .grey-button-hover:hover {
   -webkit-text-fill-color: inherit;
-  background-image: linear-gradient(to right, #5048e5, #857fff);
+  background-image: linear-gradient(to right, #5271FF, #3e34ff);
   background-clip: border-box;
 }
 
@@ -4272,7 +4272,7 @@ textarea.w-input, textarea.w-select {
   color: #d8d8d8;
   cursor: pointer;
   background-color: #1b1b1b;
-  background-image: linear-gradient(145deg, #5048e5, #6e67f4 55%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #6e67f4 55%, #3e34ff);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
@@ -4339,7 +4339,7 @@ textarea.w-input, textarea.w-select {
 .gradient-text {
   width: auto;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   -webkit-background-clip: text;
   background-clip: text;
   font-family: Satoshi, sans-serif;
@@ -4584,7 +4584,7 @@ textarea.w-input, textarea.w-select {
   color: #d8d8d8;
   letter-spacing: .5px;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg, #5048e5, #736cf6 50%, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #736cf6 50%, #3e34ff);
   -webkit-background-clip: text;
   background-clip: text;
   margin-bottom: 0;
@@ -4676,7 +4676,7 @@ textarea.w-input, textarea.w-select {
 .header-gradient {
   text-shadow: 0 0 75px rgba(133, 127, 255, .5);
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -4812,7 +4812,7 @@ textarea.w-input, textarea.w-select {
 .dashboard-submit {
   width: 325px;
   cursor: pointer;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   border-radius: 12px;
   align-self: flex-end;
   margin-top: 0;
@@ -5018,7 +5018,7 @@ textarea.w-input, textarea.w-select {
 .partner-join-server-hover {
   width: 60%;
   height: 55px;
-  background-image: linear-gradient(145deg, #5048e5, #857fff);
+  background-image: linear-gradient(145deg, #5271FF, #3e34ff);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
