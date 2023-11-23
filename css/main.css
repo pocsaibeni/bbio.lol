@@ -2160,9 +2160,6 @@ textarea.w-input, textarea.w-select {
 .logo-container {
   width: 65px;
   height: 65px;
-  background-color: #272727;
-  border: 2px solid rgba(255, 255, 255, .1);
-  border-radius: 15px;
   justify-content: center;
   align-items: center;
   padding-left: 0;
