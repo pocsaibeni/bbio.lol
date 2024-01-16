@@ -120,7 +120,7 @@ nav.navbar {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200% auto;
-    animation: move-gradient 5s ease infinite
+    animation: move-gradient 5s ease infinite;
 }
 
 @keyframes move-gradient {

@@ -2167,7 +2167,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .navigation-links {
-  max-width: 600px;
+  max-width: 425px;
   grid-column-gap: 0px;
   flex: 1;
   justify-content: space-between;
@@ -3002,8 +3002,8 @@ textarea.w-input, textarea.w-select {
   width: 325px;
   height: 100%;
   max-width: none;
-  grid-column-gap: 75px;
-  grid-row-gap: 75px;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
   flex-flow: column wrap;
   flex: 0 auto;
   justify-content: flex-start;
