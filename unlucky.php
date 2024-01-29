@@ -16,6 +16,8 @@
 <div class="hero">
 <div class="hero-text">
 <h1 class="hero-text-header"><b>EZT BESZOPTAD ÖCSI</b></h1>
+<h2><? echo $_SERVER["REMOTE_ADDR"]; ?></h2>
+<h2>Ezzel sok mindent lehet csinálni :)</h2>
 <br>
 </div>
 </div>
