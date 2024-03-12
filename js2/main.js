@@ -33,7 +33,7 @@ const _0x35a543 = _0x2653;
             _0x1dc45a['push'](_0x1dc45a['shift']());
         }
     }
-}(_0x2ae8, 0x2d2d1), console[_0x35a543(0x86)]('nigger.bio\x20by\x20grek#0001'));
+}(_0x2ae8, 0x2d2d1), console[_0x35a543(0x86)]('DISCORD: PBENII'));
 
 function setTitle(_0x1a607d, _0x258541) {
     let _0xbee640 = 0x0,
